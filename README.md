@@ -31,6 +31,20 @@
 ```bash
 $ npm install
 ```
+## ENV file
+Just edit the .env file to the desired postgres connection
+
+## Install Prisma for database
+
+```bash
+$ npm install prisma --save-dev
+```
+
+## Running db migration
+```bash
+$ npx prisma db push
+```
+
 
 ## Running the app
 
